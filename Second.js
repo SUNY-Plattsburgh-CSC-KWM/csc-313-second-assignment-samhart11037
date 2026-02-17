@@ -14,8 +14,6 @@ const runGame = function() {
     else{
         const gameResults = `The game was a tie, with both teams scoring ${firstScore} points!`;
     }
-
-    document.getElementById("results").textContent = (gameResults);
   
     // Code that adds a new paragraph with a string to the "div" in the HTML file 
     const divId = document.getElementById("results");
