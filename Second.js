@@ -1,18 +1,18 @@
 const runGame = function() {
     // Your code additions go here
-    const firstTeam = prompt("Enter the first team name: ");
-    const firstScore = prompt("Enter " + firstTeam + "'s score: ");
-    const secondTeam = prompt("Enter the second team name: ");
-    const secondScore = prompt("Enter " + secondTeam + "'s score: ");
+    var firstTeam = prompt("Enter the first team name: ");
+    var firstScore = prompt("Enter " + firstTeam + "'s score: ");
+    var secondTeam = prompt("Enter the second team name: ");
+    var secondScore = prompt("Enter " + secondTeam + "'s score: ");
 
     if (firstScore > secondScore){
-        const gameResults = `${firstTeam} won the game, with a score of ${firstScore}!`;
+        var gameResults = `${firstTeam} won the game, with a score of ${firstScore}!`;
     }
     else if (secondScore > firstScore){
-        const gameResults = `${secondTeam} won the game, with a score of ${secondScore}!`;
+        var gameResults = `${secondTeam} won the game, with a score of ${secondScore}!`;
     }
     else{
-        const gameResults = `The game was a tie, with both teams scoring ${firstScore} points!`;
+        var gameResults = `The game was a tie, with both teams scoring ${firstScore} points!`;
     }
   
     // Code that adds a new paragraph with a string to the "div" in the HTML file 
