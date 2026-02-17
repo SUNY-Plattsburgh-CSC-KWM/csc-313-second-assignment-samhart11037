@@ -5,11 +5,11 @@ const runGame = function() {
     const secondTeam = prompt("Enter the second team name: ");
     const secondScore = prompt("Enter " + secondTeam + "'s score: ");
 
-    if firstScore > secondScore{
+    if (firstScore > secondScore){
         const gameResults = `${firstTeam} won the game, with a score of ${firstScore}!`;
     }
     else{
-        if secondScore > firstScore{
+        if (secondScore > firstScore){
         const gameResults = `${secondTeam} won the game, with a score of ${secondScore}!`;
         }
     }
